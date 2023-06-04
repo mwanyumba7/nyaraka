@@ -9,7 +9,7 @@ Vitendakazi ni sehemu  msingi ya Nuru, hukuruhusu kufafanua vipande vya code vin
 
 ## Sintaksia ya Msingi
 
-Kipande cha kitendakazi huanza kwa neno tengwa unda, ikifwatiwa na vigezo vilivyoambatanishwa ndani ya mabano () na mwili ulioambatanishwa katika mabano yaliyopindpinda {}. Vitendakazi lazima vipewe vigezo:
+Kipande cha kitendakazi huanza kwa neno tengwa unda, ikifwatiwa na vigezo vilivyoambatanishwa ndani ya mabano () na mwili ulioambatanishwa katika mabano yaliyopindpinda {}. Vitendakazi lazima vipewe kihifadhi:
 
 ```go
 jumla = unda(x, y) {
@@ -19,5 +19,37 @@ jumla = unda(x, y) {
 jum(2, 3) // 5
 ```
 
+## Vigezo
 
+Vitendakazi vinaweza kuwa na sifuri au idadi yoyote ya vipengele. Vipengele navyo vinaweza kua vya aina yeyote, hata vitendakazi vyengine:
 
+```go
+salamu = unda() {
+    andika("Habari yako")
+}
+
+salamu()
+
+salamu = unda(jina) {
+    andika("Habari yako", jina)
+}
+
+salamu("asha") // Habari yako asha
+```
+
+## Vigezo chaguo-msingi
+
+Vitendakazi vinaweza kupewa vigezo chaguo-msingi:
+
+```go
+salimu = unda(salamu="Habari") {
+    andika(salamu)
+}
+
+salimu() // Habari
+salimu("Mambo") // Mambo
+```
+
+## Return (rudisha)
+
+Unaweza kurejesha vipengele kwa neno kuu la rudisha.
