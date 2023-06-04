@@ -9,6 +9,15 @@ Vitendakazi ni sehemu  msingi ya Nuru, hukuruhusu kufafanua vipande vya code vin
 
 ## Sintaksia ya Msingi
 
-Kipande cha kitendakazi huanza kwa neno tengwa unda, ikifwatiwa na vigezo vilivyoambatanishwa ndani ya mabano () na mwili ulioambatanishwa katika mabano yaliyopindpinda {}. Vitendakazi lazima vipewe
+Kipande cha kitendakazi huanza kwa neno tengwa unda, ikifwatiwa na vigezo vilivyoambatanishwa ndani ya mabano () na mwili ulioambatanishwa katika mabano yaliyopindpinda {}. Vitendakazi lazima vipewe vigezo:
+
+```go
+jumla = unda(x, y) {
+    rudisha x + y
+}
+
+jum(2, 3) // 5
+```
+
 
 
