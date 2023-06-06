@@ -52,4 +52,4 @@ salimu("Mambo") // Mambo
 
 ## Return (rudisha)
 
-Unaweza kurejesha vipengele kwa neno kuu la rudisha.
+Unaweza kurejesha vipengele kwa kutumia neno -tengwa rudisha. Neno-tengwa rudisha.
